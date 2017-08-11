@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>API Indicadores Económicos</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 block__indicadores">
+			<h1 class="text-center">Indicadores Económicos de Hoy</h1>
+				<table class="table-responsive table-striped" style="width:100%">
+					<tr>
+						<th>Indicador</th>
+						<th>Valor</th>
+					</tr>
+					<tr>
+						<td>Dólar</td>
+						<td id="dolar"></td>
+					</tr>
+					<tr>
+						<td>Euro</td>
+						<td id="euro"></td>
+					</tr>
+					<tr>
+						<td>UF</td>
+						<td id="uf"></td>
+					</tr>
+					<tr>
+						<td>UTM</td>
+						<td id="utm"></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="col-md-6 block__conversion">
+				<h3 class="">Conversión de CLP a US$ y Euro</h3>
+				<div id="response-clp"></div>
+				<h5></h5>
+				<input id="convert-clp" type="number" name="number" placeholder="Ingresa un valor">
+				<button id="btn-clp" class="btn btn-primary">Convertir</button>
+				</input>
+			</div>
+
+			<div class="col-md-6 block__conversion">
+				<h3 class="">Conversión de US$ a CLP</h3>
+				<input id="convert-usd" type="number" name="number" placeholder="Ingresa un valor">
+				<button id="btn-usd" class="btn btn-primary">Convertir</button>
+				</input>
+			</div>
+		</div>
+	</div>
+
+	
+	<script
+  	src="http://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

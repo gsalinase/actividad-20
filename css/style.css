@@ -1,0 +1,10 @@
+.block__indicadores h1{
+	padding-bottom: 20px;
+}
+
+.block__conversion {
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 20px 0 30px 0;
+}
+
