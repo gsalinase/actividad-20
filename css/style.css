@@ -4,7 +4,16 @@
 
 .block__conversion {
 	text-align: center;
-	background-color: #f1f1f1;
 	padding: 20px 0 30px 0;
 }
 
+#response-usd {
+	font-size: 30px;
+	padding: 10px 0 10px 0;
+
+}
+#response-clp {
+	font-size: 30px;
+	padding: 10px 0 10px 0;
+	
+}

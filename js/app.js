@@ -28,11 +28,11 @@ $(document).ready(function($) {
 });
 	$('#btn-clp').on('click', function(event) {
 				var convertClp = $('#convert-clp').val()/dolar;
-				$('#response-clp').text(uf);
+				$('#response-clp').text('$ ' + parseInt(convertClp));
 
 			});
 	$('#btn-usd').on('click', function(event) {
 				var convertUsd = $('#convert-usd').val()*dolar;
-				$('#response-usd').text(parseInt(convertUsd));
+				$('#response-usd').text('$ ' + parseInt(convertUsd));
 
 			});
